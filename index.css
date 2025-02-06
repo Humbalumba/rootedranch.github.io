@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: left;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.home{
+    background-color: #e3aa39;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-image: url('barn.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: auto;
+}
+
+.title{
+    margin-left: 15%; 
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 50pt;
+}
+.description{
+    margin-left: 15%; 
+    margin-right: 15%;
+    font-size: 25pt;
+}
+.zoom {
+    height: 200px;
+    transform: translateY(-50%) scale(1.5);
+    overflow: hidden;
+}
+.content {
+    margin-top: 100vh;
+    padding: 20px;
+}
+.sustainability{
+    color: black;
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 50px;
+    transition: .5s;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.left-row{
+    width: 90%;
+}
+.sustainability-title{
+    color: black;
+    width: 100%;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+.sustainability-description{
+    color: black;
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+}
+.right-row{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    width: 30%;
+    align-items: flex-end;
+}
+.hover-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #e3aa39;
+    border-radius: 50%;
+    margin: 15px;
+    transition: transform 0.5s;
+    align-self: flex-end;
+}
+.hover-icon:first-child {
+    margin-top: auto;
+}
+.hover-icon:last-child {
+    margin-bottom: auto;
+}
+.ingredients-icon{
+    background-color: #e3aa39;
+}
+.ingredients-icon:hover {
+    transform: scale(1.1);
+}
+.waste-icon{
+    background-color: #ff7321;
+}
+.waste-icon:hover {
+    transform: scale(1.1);
+}
+.packaging-icon{
+    background-color: #ec5732;
+}
