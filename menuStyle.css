@@ -1,0 +1,133 @@
+html {
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: Merriweather;
+}
+
+.container {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6)), 
+    url(menuImages/victoria-shes-4MEL9XS-3JQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0 0;
+}
+
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color:dimgray;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 475%;
+    color: #efefef;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    padding: 8% 0;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 275%;
+    color: #efefef;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+}
+
+.review {
+    margin: 0 0;
+}
+
+.top-border {
+    width: 60%;
+    height: 15vh;
+    background-image: url(menuImages/vintage-border-top.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2% 0;
+    margin: auto;
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 120%;
+    color: #213d30;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    padding: 2% 18%;
+    line-height: 1.5;
+}
+
+.bottom-border {
+    width: 60%;
+    height: 15vh;
+    background-image: url(menuImages/vintage-border-bottom.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2% 0;
+    margin: auto
+}
+
+
+/*Start Parallex*/
+.starter .parallex {
+    background: url(menuImages/pexels-rdne-5737369.jpg) repeat fixed 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallex-inner {
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+/*End Parallex*/
+
+.dishes {
+    display: flex;
+}
+
+h4 {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 100%;
+    color: #213d30;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    padding: 0 5%;
+}
+
+
+/*Start Parallex*/
+.main-course .parallex {
+    background: url(menuImages/jennifer-schmidt-MRHyv-hHxgk-unsplash.jpg) repeat fixed 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallex-inner {
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+/*End Parallex*/
+
+
+/*Start Parallex*/
+.specials .parallex {
+    background: url(menuImages/pexels-enginakyurt-1527603.jpg) repeat fixed 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallex-inner {
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+/*End Parallex*/
