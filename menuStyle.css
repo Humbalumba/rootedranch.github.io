@@ -73,7 +73,7 @@ h3 {
     background-position: center;
     background-size: cover;
     padding: 2% 0;
-    margin: auto
+    margin: auto;
 }
 
 
@@ -94,16 +94,19 @@ h3 {
     display: flex;
 }
 
-h4 {
-    text-align: left;
-    font-family: 'Franklin Gothic Medium';
-    font-size: 100%;
-    color: #213d30;
-    text-transform: uppercase;
-    letter-spacing: 1%;
-    padding: 0 5%;
+.line {
+    border-bottom-width: 50px;
+    border-bottom-color: #213d30;
+}
+.details {
+    width: 70%;
+    align-items: left;
 }
 
+.price {
+    width: 30%;
+    align-items: right;
+}
 
 /*Start Parallex*/
 .main-course .parallex {
@@ -117,7 +120,6 @@ h4 {
    padding-bottom: 5%;
 }
 /*End Parallex*/
-
 
 /*Start Parallex*/
 .specials .parallex {
