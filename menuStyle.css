@@ -9,7 +9,7 @@ html {
     width: 100%;
     height: 50vh;
     background-image: linear-gradient(rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6)), 
-    url(menuImages/victoria-shes-4MEL9XS-3JQ-unsplash.jpg);
+    url(menuImages/MenuTitleBackground.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -41,10 +41,6 @@ h2 {
     letter-spacing: 1%;
 }
 
-.review {
-    margin: 0 0;
-}
-
 .top-border {
     width: 60%;
     height: 15vh;
@@ -66,6 +62,23 @@ h3 {
     line-height: 1.5;
 }
 
+.menubutton {
+    background-color: #ffffff;
+    color: #976f41;
+    border-color: #976f41;
+    padding: 15px 32px;
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    margin: 0 auto;
+}
+
+.menubutton:hover {
+    background-color: #976f41;
+    color: #ffffff;
+}
+
 .bottom-border {
     width: 60%;
     height: 15vh;
@@ -79,7 +92,7 @@ h3 {
 
 /*Start Parallex*/
 .starter .parallex {
-    background: url(menuImages/pexels-rdne-5737369.jpg) repeat fixed 100%;
+    background: url(menuImages/StarterBackground.jpg) repeat fixed 100%;
     background-position: center;
     background-size: cover;
 }
@@ -90,27 +103,35 @@ h3 {
 }
 /*End Parallex*/
 
-.dishes {
-    display: flex;
+.wrapper {
+    border: #976f41;
+    border-bottom-width: 0.25em;
+    border-bottom-style: groove;
 }
 
-.line {
-    border-bottom-width: 50px;
-    border-bottom-color: #213d30;
-}
 .details {
-    width: 70%;
-    align-items: left;
+    display: flex;
+    font-size: 150%;
+    color: #213d30;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    padding: 2% 5%;
+    line-height: 1.5;
+}
+
+.info {
+    width: 90%;
+    align-items: right;
 }
 
 .price {
-    width: 30%;
+    width: 10%;
     align-items: right;
 }
 
 /*Start Parallex*/
 .main-course .parallex {
-    background: url(menuImages/jennifer-schmidt-MRHyv-hHxgk-unsplash.jpg) repeat fixed 100%;
+    background: url(menuImages/MainCourseBackground.jpg) repeat fixed 100%;
     background-position: center;
     background-size: cover;
 }
@@ -123,7 +144,33 @@ h3 {
 
 /*Start Parallex*/
 .specials .parallex {
-    background: url(menuImages/pexels-enginakyurt-1527603.jpg) repeat fixed 100%;
+    background: url(menuImages/SpecialsBackground.jpg) repeat fixed 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallex-inner {
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+/*End Parallex*/
+
+/*Start Parallex*/
+.desserts .parallex {
+    background: url(menuImages/DessertBackground.jpg) repeat fixed 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallex-inner {
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+/*End Parallex*/
+
+/*Start Parallex*/
+.drinks .parallex {
+    background: url(menuImages/DrinksBackground.jpg) repeat fixed 100%;
     background-position: center;
     background-size: cover;
 }
