@@ -1,14 +1,14 @@
-window.onload = function() {
-    const img = new Image();
-    img.src = 'barn.png';
-    img.onload = function() {
-        const homeDiv = document.querySelector('.home');
-        const aspectRatio = img.height / img.width;
-        const homeDivWidth = window.innerWidth;
-        const homeDivHeight = homeDivWidth * aspectRatio;
-        homeDiv.style.height = homeDivHeight + 'px';
-    };
-};
+// window.onload = function() {
+//     const img = new Image();
+//     img.src = 'barn.png';
+//     img.onload = function() {
+//         const homeDiv = document.querySelector('.home');
+//         const aspectRatio = img.height / img.width;
+//         const homeDivWidth = window.innerWidth;
+//         const homeDivHeight = homeDivWidth * aspectRatio;
+//         homeDiv.style.height = homeDivHeight + 'px';
+//     };
+// };
 const ingredients = document.querySelector('.ingredients-icon');
 const waste = document.querySelector('.waste-icon');
 const packaging = document.querySelector('.packaging-icon');
@@ -17,7 +17,7 @@ const sustainabilityTitle = document.querySelector('.sustainability-title');
 const sustainabilityDescription = document.querySelector('.sustainability-description');
 console.log(sustainabilityDiv)
 ingredients.addEventListener('mouseover', function() {
-    sustainabilityDiv.style.backgroundColor = '#e3aa39';
+    sustainabilityDiv.style.backgroundColor = '#dbb260';
     sustainabilityTitle.innerText = 'Ingredients';
     sustainabilityTitle.style.color = 'white';
     sustainabilityDescription.innerText = '';
@@ -31,7 +31,7 @@ ingredients.addEventListener('mouseout', function() {
     sustainabilityDescription.style.color = 'black';
 });
 waste.addEventListener('mouseover', function() {
-    sustainabilityDiv.style.backgroundColor = '#ff7321';
+    sustainabilityDiv.style.backgroundColor = '#f89d68';
     sustainabilityTitle.innerText = 'Waste';
     sustainabilityTitle.style.color = 'white';
     sustainabilityDescription.innerText = '';
@@ -45,7 +45,7 @@ waste.addEventListener('mouseout', function() {
     sustainabilityDescription.style.color = 'black';
 });
 packaging.addEventListener('mouseover', function() {
-    sustainabilityDiv.style.backgroundColor = '#ec5732';
+    sustainabilityDiv.style.backgroundColor = '#d17760';
     sustainabilityTitle.innerText = 'Packaging';
     sustainabilityTitle.style.color = 'white';
     sustainabilityDescription.innerText = '';
