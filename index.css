@@ -26,12 +26,12 @@ body {
     margin-left: 15%; 
     margin-bottom: 20px;
     text-decoration: underline;
-    font-size: 50pt;
+    font-size: 4em;
 }
 .description{
     margin-left: 15%; 
     margin-right: 15%;
-    font-size: 25pt;
+    font-size: 2em;
 }
 .zoom {
     height: 200px;
@@ -62,7 +62,7 @@ body {
     width: 100%;
     text-align: left;
     text-decoration: underline;
-    font-size: 30pt;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 .sustainability-description{
@@ -108,4 +108,72 @@ body {
 }
 .packaging-icon{
     background-color: #ec5732;
+}
+@media (max-width: 1800px) {
+    .home {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .title {
+        font-size: 3em;
+        margin-left: 10%;
+    }
+    .description {
+        font-size: 1.5em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sustainability {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .sustainability-title {
+        font-size: 2.5em;
+    }
+    .sustainability-description {
+        font-size: 18px;
+    }
+    .right-row {
+        width: 40%;
+    }
+    .hover-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (max-width: 1200px) {
+    .home {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .title {
+        font-size: 2.5em;
+        margin-left: 5%;
+    }
+    .description {
+        font-size: 1.2em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .sustainability {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+    .sustainability-title {
+        font-size: 2em;
+    }
+    .sustainability-description {
+        font-size: 16px;
+    }
+    .left-row{
+        width: 80%;
+    }
+    .right-row {
+        width: 20%;
+    }
+    .hover-icon {
+        width: 50px;
+        height: 50px;
+        margin-left: 50px;
+    }
 }
