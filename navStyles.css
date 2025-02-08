@@ -1,0 +1,43 @@
+html {
+    background-color: #e0c4a4;
+}
+
+header {
+    margin: 0 auto;
+
+}
+
+.top-border {
+    width: 60vw;
+    height: 25vh;
+    padding: 0 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.top-border img {
+    width: 60vw;
+}
+
+.visual {
+    display: flex;
+    width: 500px;
+    height: 300px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    line-height: 20vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 300%;
+}
