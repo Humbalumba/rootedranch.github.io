@@ -24,8 +24,14 @@ header {
     display: flex;
     width: 500px;
     height: 300px;
+    align-items: center;
+    margin-left: 2vw;
 }
-
+.visual img {
+    width: 30vw;
+    height:auto;
+    margin: 1.4vw;
+}
 ul {
     display: flex;
     justify-content: space-between;
