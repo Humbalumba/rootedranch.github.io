@@ -85,7 +85,7 @@ h3 {
 .bottom-border {
     width: 60%;
     height: 15vh;
-    background-image: url(menuImages/vintage-border-bottom.jpg);
+    background-image: url(menuImages/vintage-border-bottom.jpg) no;
     background-position: center;
     background-size: cover;
     padding: 2% 0;
