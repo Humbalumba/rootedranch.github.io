@@ -5,11 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="menuStyle.css">
+    <link rel="stylesheet" href="navStyles.css">
 </head>
 <body>
     <div>
         <button class="nav-button" onclick="window.location.href='nav.html'"><img src="logo.png" alt="Navigation"></button>
     </div>
+    <div class="navbar-area">
+      <span class="open-navbar-icon navbar-icon center" >
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </span>
+    <img class="top-border" src="NavImages/vintage-border-top.png">
+    <img class="top-border bottom-border" src="NavImages/vintage-border-top.png">
+      <div class="navbar-wrapper">
+        <nav class="navbar">
+            <div class="close-navbar-icon navbar-icon center">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+            </div>
+            <div class="nav-list">
+                <div class = "nav-column home">
+                    <div class="nav-text"><p>Home</p></div>
+                    <img src="NavImages/NavHomeImage.png" class="fade-image" id="image1">
+                </div>
+                <div class="nav-column menu">
+                    <div class="nav-text"><p>Menu</p></div>
+                    <img src="NavImages/NavMenuImage.png" class="fade-image" id="image2">
+                </div>
+                <div class="nav-column about">
+                    <div class="nav-text"><p>About</p></div>
+                    <img src="NavImages/NavAboutImage.png" class="fade-image" id="image3">
+                </div>
+            </div>
+        </nav>
+    </div>
+    </div>
+    
     <div class="container">
         <div class="gradient"></div> 
         <h1>Menu</h1>       
@@ -253,5 +286,6 @@
             </div>
         </div>
     </div>
+    <script src="nav.js"></script>
 </body>
 </html>

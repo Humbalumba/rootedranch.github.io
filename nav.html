@@ -11,16 +11,47 @@
         <img class="top-border" src="NavImages/vintage-border-top.png">
     </header>
     <main>
-        <ul>
-            <li class="HomeButton"><a href="index.html">Home</a></li>
-            <li class="MenuButton"><a href="menu.html">Menu</a></li>
-            <li class="AboutButton"><a href="about.html">About</a></li>
+        <ul class="nav-list">
+            <div class = "nav-column home">
+                <li class="HomeButton"><a href="index.html">Home</a></li>
+                <img src="NavImages/NavHomeImage.png" class="fade-image" id="image1">
+            </div>
+            <div class="nav-column menu">
+                <li class="MenuButton"><a href="menu.html">Menu</a></li>
+                <img src="NavImages/NavMenuImage.png" class="fade-image" id="image2">
+            </div>
+            <div class="nav-column about">
+                <li class="AboutButton"><a href="about.html">About</a></li>
+                <img src="NavImages/NavAboutImage.png" class="fade-image" id="image3">
+            </div>
         </ul>
         <div class="visual">
-            <img src="NavImages/NavHomeImage.png" class="fade-image" id="image1">
-            <img src="NavImages/NavMenuImage.png" class="fade-image" id="image2">
-            <img src="NavImages/NavAboutImage.png" class="fade-image" id="image3">
         </div>
+    <div class="navbar-area">
+      <span class="open-navbar-icon navbar-icon center" >
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </span>
+      <div class="navbar-wrapper">
+				<nav class="navbar">
+					<div class="close-navbar-icon navbar-icon center">
+						<div class="line line-1"></div>
+						<div class="line line-2"></div>
+					</div>
+					<div class="nav-list">
+						<a href="/index" class="nav-link option-1 center">Home</a>
+						<a href="/ourTeam" class="nav-link option-2 center">Our Team</a>
+						<a href="/contactUs" class="nav-link option-3 center">Contact Us</a>
+						<a href="/help" class="nav-link option-4 center">Help</a>
+                        <a href="${link_5}" class="nav-link option-5 center">${option_5}</a>
+					</div>
+				</nav>
+			</div>
+            <img class="color-change-icon" src="moon.svg" width='25px' height='25px' style='margin-top: 2.3px;'></img>
+    </div>
+    <img id="logo" src="logo.png" alt="Logo" onclick="window.location='/'"   >
     </main>
+    <script src="nav.js"></script>
 </body>
 </html>
