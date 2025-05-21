@@ -90,6 +90,7 @@
     transform: scale(1.01);
     margin: 0 !important;
     background-color: #e0c4a4;
+    font-family: "Montserrat", serif;
 }
 .change .nav-column{
     left: 0;
