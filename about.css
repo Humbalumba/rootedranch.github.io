@@ -37,53 +37,77 @@ body {
     cursor: pointer;
 }
 
-
-.about-screen-title{
-    color: #000000;
-    margin-top: 5%;
-    margin-bottom: 50px;
-    padding-left: 5%;
-    text-decoration: underline;
+.title {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(75, 84, 80, 0.6), rgba(75, 84, 80, 0.6), rgba(75, 84, 80, 0.6)), 
+   url(AboutUsImages/AboutUsTitleBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
-.about-section{
-    display: flex;
+
+.title h1 {
+    text-align: center;
+    font-size: 475%;
+    color: #efefef;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    padding: 22% 0;
+    margin: 0 0;
+}
+
+.background-container {
+    width: 100%;
+    background-image: url(AboutUsImages/AboutUSDescriptionBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.description-container {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+
+.box {
     width: 90%;
+    background-color: #36373f;
+    margin-right: 5%;
     margin-left: 5%;
-    margin-top: 50px;
-    border: 0.5px solid #636363;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.8);
-    background-color: #d1a97b;
-    padding: 50px;
-    height: fit-content;
-}
-.about-img{
-    width: 30%;
-    height: auto;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-right: 30px;
-    border: 5px solid #e0c4a4;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 25px
 }
 
-.about-section h2{
-    font-size: 1.5em;
-    text-decoration: underline;
-    margin-bottom: 2px;
+.eyecatcher {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+
 }
-.title{
-    margin-bottom: 10px;
-    font-weight: 500;
+
+.box h1 {
+    text-align: center;
+    font-size: 350%;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    margin-bottom: 2%;
 }
-.about-details{
-    margin-left: 50px;
-}
-.about-details button{
-    background-color: #e0c4a4;
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
+
+.box p {
+    text-align: center;
+    font-size: 125%;
+    color: #ffffff;
+    letter-spacing: 1%;
+    padding: 1% 0;
+    margin: 0 0;
 }
