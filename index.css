@@ -113,6 +113,7 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     height: 400px;
+    margin-bottom: 50px;
 }
 .left-row{
     width: 90%;
@@ -196,7 +197,58 @@ body {
     margin-left: 15%;
     display: flex;
 }
+.specials-title{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    background-color: #a4dab4;}
+.specials{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;    
+    cursor: pointer;
+    background-color: #a4dab4;
+}
+.special-column{
+    width: 20%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #e2b355;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
 
+.special-column:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+    box-shadow: 0 2px 5px #2e2e2ea8;
+}
+.special-column img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transform: scale(1.01);
+    bottom: 0;
+}
+.special-name{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
 .testamonials{
     width: 100%;
     padding-left: 7.7vw;
@@ -205,6 +257,7 @@ body {
     background-color: rgb(245, 213, 172);
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin-bottom: 100px;
 }
 .testamonial-column{
@@ -237,6 +290,7 @@ body {
 .testamonial-name{
     font-size: 1em;
     margin-bottom: 10px;
+    text-align: center;
 }
 .testamonial-image{
     width: 100px;
