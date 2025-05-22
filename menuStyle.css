@@ -2,7 +2,7 @@ html {
     margin:0;
     padding:0;
     border:0;
-    font-family: "Montserrat", serif;
+    font-family: "Ancizar Serif", serif;
 }
 
 .nav-button {
@@ -159,7 +159,7 @@ h3 {
 }
 
 /*Start Parallex*/
-.main-course .parallex {
+.first-course .parallex {
     background: linear-gradient(rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6)), 
     url(menuImages/MainCourseBackground.jpg) repeat fixed 100%;
     background-position: center;
@@ -173,7 +173,7 @@ h3 {
 /*End Parallex*/
 
 /*Start Parallex*/
-.specials .parallex {
+.entree .parallex {
     background: linear-gradient(rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6)), 
     url(menuImages/SpecialsBackground.jpg) repeat fixed 100%;
     background-position: center;

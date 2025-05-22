@@ -97,7 +97,7 @@
     transform: scale(1.01);
     margin: 0 !important;
     background-color: #e0c4a4;
-    font-family: "Montserrat", serif;
+    font-family: "Ancizar Serif", serif;
 }
 .change .nav-column{
     left: 0;
@@ -123,6 +123,8 @@
     max-height: 100%;
     display: flex;
     flex-direction: row;
+    font-family: "Ancizar Serif", serif;
+
 }
 .nav-column{
     width: 101%;
@@ -131,6 +133,7 @@
     justify-content: center;
     align-items: center;
     background-color: #e0c4a4;
+    
     opacity: 1;
     margin-top: -10px;
 }
