@@ -11,6 +11,13 @@
     width: 40px!important;
     min-width: 40px;
 }
+.navbar-icon:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 0 2px 5px #2e2e2ea8;
+    cursor: pointer;
+}
+
 .line{
     width: 50%;
     height: 2px;
@@ -130,6 +137,7 @@
 .fade-image{
     width: 75%;
     height: auto;
+    cursor: pointer;
 }
 .nav-column:hover{
     transform: scale(1.08);
