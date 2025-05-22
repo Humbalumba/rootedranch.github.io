@@ -37,7 +37,6 @@ html {
     background-position: center;
     background-size: cover;
     position: relative;  
-    margin-top: 10%;
     margin-bottom: 10%;
 }
 
@@ -121,7 +120,8 @@ h3 {
 
 /*Start Parallex*/
 .starter .parallex {
-    background: url(menuImages/StarterBackground.jpg) repeat fixed 100%;
+    background: linear-gradient(rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6)), 
+    url(menuImages/StarterBackground.jpg) repeat fixed 100%;
     background-position: center;
     background-size: cover;
 }
@@ -160,7 +160,8 @@ h3 {
 
 /*Start Parallex*/
 .main-course .parallex {
-    background: url(menuImages/MainCourseBackground.jpg) repeat fixed 100%;
+    background: linear-gradient(rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6)), 
+    url(menuImages/MainCourseBackground.jpg) repeat fixed 100%;
     background-position: center;
     background-size: cover;
 }
@@ -173,7 +174,8 @@ h3 {
 
 /*Start Parallex*/
 .specials .parallex {
-    background: url(menuImages/SpecialsBackground.jpg) repeat fixed 100%;
+    background: linear-gradient(rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6)), 
+    url(menuImages/SpecialsBackground.jpg) repeat fixed 100%;
     background-position: center;
     background-size: cover;
 }
@@ -186,7 +188,8 @@ h3 {
 
 /*Start Parallex*/
 .desserts .parallex {
-    background: url(menuImages/DessertBackground.jpg) repeat fixed 100%;
+    background: linear-gradient(rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6)), 
+    url(menuImages/DessertBackground.jpg) repeat fixed 100%;
     background-position: center;
     background-size: cover;
 }
@@ -199,7 +202,8 @@ h3 {
 
 /*Start Parallex*/
 .drinks .parallex {
-    background: url(menuImages/DrinksBackground.jpg) repeat fixed 100%;
+    background: linear-gradient(rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6), rgba(33, 61, 48, 0.6)), 
+    url(menuImages/DrinksBackground.jpg) repeat fixed 100%;
     background-position: center;
     background-size: cover;
 }
